@@ -1,0 +1,99 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# Virtual Environment (가장 중요)
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# VSCode
+# =========================
+.vscode/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Logs & databases
+# =========================
+*.log
+*.sqlite3
+db.sqlite3
+
+# =========================
+# Testing / coverage
+# =========================
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# Mypy / Ruff / Pyright / type checkers
+# =========================
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# PyInstaller
+# =========================
+*.spec
+
+# =========================
+# IDEs
+# =========================
+.idea/
+
+# =========================
+*.jpg
+*.png
+*.jpeg
